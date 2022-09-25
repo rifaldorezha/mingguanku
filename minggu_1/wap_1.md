@@ -69,14 +69,17 @@
     </table><br>
 
 
-3. Alur kerja Git dan Github <br> <img src="excalidraw_git_and_github.png">
+3. Alur kerja Git dan Github <br> <img src="excalidraw_git_and_github.png" style="height: 350px; width: 600px">
 4. ``git init nama_directory`` command ini akan membuat directory dan file ``.git`` sebagai tempat memori penyimpanan. Lalu jika sudah ada directory maka hanya memerlukan command ``git init .`` pada tempat directory yang sudah dibuat sebelumnya.
-5. 
+5. Melakukan commit pada Git <br>
+    <img src="cara commit.png" style="height: 350px; width: 600px"> Setelah membuat file maka kita git add dulu supaya masuk ke stage area setelah itu git status. Jika file sudah berwarna hijau, selanjutnya membuat command ``git commit -m "Cara melakukan commit pada git, membuat file index.js dan oke.html"``  ini contoh aku ambil pada saat saya sedang praktek, dan nanti bisa sesuai kasusnya masing-masing. Setelah itu ``git log`` untuk melihat checkpoint yang sudah di commit.
+
+6. 
 <!-- 
 -Peserta mampu memahami kenapa Git dan Github tools yang wajib digunakan
 -Peserta mampu memahami perbedaan antara Git dan Github
 - Peserta mampu memahami alur kerja dari Git dan Github
 - Peserta mampu memahami dan membuat Repository Git
-Peserta mampu melakukan commit pada Git
+- Peserta mampu melakukan commit pada Git
 Peserta mampu mempublish aplikasi ke Github
 Peserta mampu melakukan cloning Github ke local -->
