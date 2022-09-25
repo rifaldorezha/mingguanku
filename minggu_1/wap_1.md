@@ -72,14 +72,17 @@
 3. Alur kerja Git dan Github <br> <img src="excalidraw_git_and_github.png" style="height: 350px; width: 600px">
 4. ``git init nama_directory`` command ini akan membuat directory dan file ``.git`` sebagai tempat memori penyimpanan. Lalu jika sudah ada directory maka hanya memerlukan command ``git init .`` pada tempat directory yang sudah dibuat sebelumnya.
 5. Melakukan commit pada Git <br>
-    <img src="cara commit.png" style="height: 350px; width: 600px"> Setelah membuat file maka kita git add dulu supaya masuk ke stage area setelah itu git status. Jika file sudah berwarna hijau, selanjutnya membuat command ``git commit -m "Cara melakukan commit pada git, membuat file index.js dan oke.html"``  ini contoh aku ambil pada saat saya sedang praktek, dan nanti bisa sesuai kasusnya masing-masing. Setelah itu ``git log`` untuk melihat checkpoint yang sudah di commit.
+    <img src="cara commit.png" style="height: 250px; width: 600px"> Setelah membuat file maka kita git add dulu supaya masuk ke stage area setelah itu git status. Jika file sudah berwarna hijau, selanjutnya membuat command ``git commit -m "Cara melakukan commit pada git, membuat file index.js dan oke.html"``  ini contoh aku ambil pada saat saya sedang praktek, dan nanti bisa sesuai kasusnya masing-masing. Setelah itu ``git log`` untuk melihat checkpoint yang sudah di commit.
 
-6. 
-<!-- 
--Peserta mampu memahami kenapa Git dan Github tools yang wajib digunakan
--Peserta mampu memahami perbedaan antara Git dan Github
-- Peserta mampu memahami alur kerja dari Git dan Github
-- Peserta mampu memahami dan membuat Repository Git
-- Peserta mampu melakukan commit pada Git
-Peserta mampu mempublish aplikasi ke Github
-Peserta mampu melakukan cloning Github ke local -->
+6. Publish ke Github
+    <img src="cara push.png" style="height: 250px; width: 600px"> <br>
+    Sebelum di push, yang dilakukan adalah membuat repository dulu di Github dengan nama yang sama. Lalu ceklist public, setelah itu create repository. Setelah sukses membuat repository yng dilakukan adalah copy command yang disediakan dan paste di Git bash. setelah itu copy command ``git push -u origin master``. Setelah itu masuk ke web Github kita cek, maka tampilan nya seperti di bawah ini.
+    <img src="sesudah di push.png" style="height: 250px; width: 600px"> <br>
+
+7. cara Clone ke local <br>
+    <img src="clone web.png" style="height: 250px; width: 600px"><br>
+    Masuk ke Github, lalu pilih tombol __Code__ warna hijau dan copy link nya. Setelah itu masuk ke file explorer mencari tempat dimana akan diletak kan file repository tersebut. Setelah itu klik kanan pilih Git Bash Here, lalu masukkan command ``git clone link_clone_github`` maka tampilan seperti di bawah ini. <br>
+    <img src="clone1.png" style="height: 250px; width: 600px"><br><br>
+
+
+# HTML Dasar
