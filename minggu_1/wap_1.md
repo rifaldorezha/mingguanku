@@ -195,18 +195,54 @@
 
 # Algorithm & Data Structures
 
-1. 
-2. 
-3. 
+1. __ALgoritma__ merupakan deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. __Data Structure__ merupakan cara menyimpan dan mengelola data di dalam komputer.
 
+2. Manfaat penggunaan algortima dan data structur adalah karena algoritma dapat membantu manyusun langkah - langkah untuk menyelesaikan suatu masalah. Dan data structur ini adalah programming yang digunakan untuk mengelola/manajemen sebuah data yang telah disusun secara algoritma tadi.
+3. Algoritma sederhana dalam bahasa pemrograman javascript.
+    ```javascript
+        let angka = 2;
+        let hasil;
 
- 
+        hasil = angka * 5;
+        console.log(hasil);
+    ```
+
+4. __Big O__ sebuah cara atau metode untuk melakukan analisa terhadap sebuah algoritma pemrograman terhadap waktu eksekusi. Mencari jalan alternatif untuk mempermudah lagi jalan nya program yang semakin besar di waktu kedepan.
+
+5. Jika ada data untuk mengeluarkan pesan banyak misal 100 output pesan dan membutuhkan waktu atau tenaga yang lebih, jadi penggunaan looping adalah solusi yang bagus.
+
+6. Penerapan struktur data __Array__ dengan javascript.
+    ```javascript
+        let nama = ["rifaldo", "reza", "saputra"];
+        let a;
+
+        for(a = 2; 0 <= a; a--){
+        console.log("aku adalah " + nama[a]);
+        }
+    ```
+
+# JavaScript Dasar Introduction
+
 <!-- 
-Peserta mampu memahami perbedaan antara Algoritma dan Data Structures
-Peserta mampu memahami manfaat dari algoritma dan data structure
-Peserta mampu membuat algoritma sederhana
-Peserta mampu menerapkan algoritma ke dalam bahasa pemrograman
-Peserta mampu dan memahami Big O Notation 
-Peserta mampu memahami dan mempraktikkan pendekatan menyelesaikan suatu masalah untuk diselesaikan melalui program 
-Peserta mampu memahami dan menerapkan salah satu algoritma dengan JavaScript 
-Peserta mampu memahami dan menerapkan salah satu struktur data dengan JavaScript -->
+Peserta mampu memahami peran JavaScript pada web development
+Peserta mampu memahami dan menjalankan JavaScript
+Peserta mampu memahami dan membedakan berbagai tipe data
+Peserta mampu memahami dan menggunakan operator
+Peserta mampu memahami dan membedakan control flow (conditional dan looping) -->
+
+# JavaScript Dasar Scope and Function
+
+<!-- 
+Peserta mampu memahami scope
+Peserta mampu memahami dan membuat fungsi
+Peserta mampu menghadapi dan menyelesaikan error serta bug -->
+
+# JavaScript Dasar Data Type Built in Prototype & Method
+
+
+<!-- 
+Data Type: 
+String: 
+Number: 
+Math: 
+Primitive & Non Primitive:  -->
