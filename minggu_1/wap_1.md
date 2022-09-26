@@ -1,16 +1,16 @@
 # Unix Command Line
 
-1. <b>Shell</b> yang digunakan untuk berinteraksi antara pengguna dengan perangkat lunak / software dan sistem operasi dengan cara mengetikkan perintah ke dalam interface dan menerima respons.
+1. <b>Shell</b> yang digunakan untuk berinteraksi antara pengguna dengan perangkat lunak / software dan sistem operasi dengan cara mengetikkan perintah ke dalam interface dan dapat menerima respons.
 
-2. <b>Command Line Interface</b> merupakan Interface atau antarmuka berbasis teks, CLI tersebut bisa berupa GUI atau shell. CLI memiliki contoh : <br>
-   &ensp; - bash <br>
-   &ensp; - sh <br>
-   &ensp; - zsh <br>
-   &ensp; - cmd.exe / Command Prompt
+2. <b>Command Line Interface</b> merupakan Interface atau antarmuka berbasis teks, CLI tersebut bisa berupa GUI atau shell. CLI memiliki contoh  : <br>
+    - bash <br>
+    - sh <br>
+    - zsh <br>
+    - cmd.exe / Command Prompt
 
 3. <b>Cara mengakases CLI dengan menggunakan terminal </b> yang umum dipakai adalah Command Prompt, lalu ada juga yang menggunakan Bash seperti saya. Berikut adalah tampilan awal saat membuka Command Prompt atau Bash :<br> <img src="tampilan_bash.png" style="height: 200px; width: 370px; display: block; margin-left: auto; margin-right: auto;" > <br>
 
-4. **System Structur** dengan menyimpan semua perubahan pada directory atau file project yang dibuat oleh pengguna dan diatur dalam system tersebut. File yang sudah disimpan maka akan tersusun dengan bentuk hirarki atau tree.
+4. **System Structur** dengan menyimpan semua perubahan pada directory atau file project yang dibuat oleh pengguna dan diatur dalam system tersebut. File yang sudah disimpan maka akan tersusun dengan bentuk hirarki atau tree. Contoh : <img src="tree.png" style="height: 200px; width: 370px; display: block; margin-left: auto; margin-right: auto;" >
 
 5. **Print working directory** atau `pwd` digunakan untuk menampilkan current working directory.
 6. **Lists** `ls` digunakan untuk melihat isi file yang ada di sebuah directory.
@@ -70,9 +70,9 @@
 3. Alur kerja Git dan Github <br> <img src="excalidraw.png" style="height: 350px; width: 600px">
 4. `git init nama_directory` command ini akan membuat directory dan file `.git` sebagai tempat memori penyimpanan. Lalu jika sudah ada directory maka hanya memerlukan command `git init .` pada tempat directory yang sudah dibuat sebelumnya.
 5. Melakukan commit pada Git <br>
-   <img src="cara commit.png" style="height: 250px; width: 600px"> Setelah membuat file maka kita git add dulu supaya masuk ke stage area setelah itu git status. Jika file sudah berwarna hijau, selanjutnya membuat command `git commit -m "Cara melakukan commit pada git, membuat file index.js dan oke.html"` ini contoh aku ambil pada saat saya sedang praktek, dan nanti bisa sesuai kasusnya masing-masing. Setelah itu `git log` untuk melihat checkpoint yang sudah di commit.
+   <img src="cara commit.png" style="height: 400px; width: 800px"> <br> Setelah membuat file maka kita git add dulu supaya masuk ke stage area setelah itu git status. Jika file sudah berwarna hijau, selanjutnya membuat command `git commit -m "Cara melakukan commit pada git, membuat file index.js dan oke.html"` ini contoh aku ambil pada saat saya sedang praktek, dan nanti bisa sesuai kasusnya masing-masing. Setelah itu `git log` untuk melihat checkpoint yang sudah di commit.
 
-6. Publish ke Github
+6. Publish ke Github<br>
    <img src="cara push.png" style="height: 250px; width: 600px"> <br>
    Sebelum di push, yang dilakukan adalah membuat repository dulu di Github dengan nama yang sama. Lalu ceklist public, setelah itu create repository. Setelah sukses membuat repository yng dilakukan adalah copy command yang disediakan dan paste di Git bash. setelah itu copy command `git push -u origin master`. Setelah itu masuk ke web Github kita cek, maka tampilan nya seperti di bawah ini.
    <img src="sesudah di push.png" style="height: 250px; width: 600px"> <br>
@@ -104,7 +104,7 @@
     <br>
 4. Tampilan menjalankan html sederhana seperti dibawah ini.
     <br>
-    <img src="html manual.png" style="height: 250px; width: 600px">
+    <img src="html manual.png" style="height: 250px; width: 600px"><br>
     Tampilan menjalankan dengan ekstensi Live Server seperti dibawah ini.<br>
     <img src="html go live.png" style="height: 250px; width: 600px">
 
@@ -120,7 +120,7 @@
         - ``<img src= " " alt= " "/>`` <br>
     * Paired Tag atau double Tag <br>
         - ``<h1> </h1>`` <br>
-    * HTML Comment digunakan untuk memberi keterangan pada suatu line code ``<!---->``
+    * HTML Comment digunakan untuk memberi keterangan pada suatu line code, Opening command ``<!--`` Closing Command ``-->``.
 6. Semantic HTML<br>
     ``` HTML
         <body>
@@ -195,7 +195,7 @@
 
 # Algorithm & Data Structures
 
-1. __ALgoritma__ merupakan deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. __Data Structure__ merupakan cara menyimpan dan mengelola data di dalam komputer.
+1. __Algoritma__ merupakan deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. __Data Structure__ merupakan cara menyimpan dan mengelola data di dalam komputer.
 
 2. Manfaat penggunaan algortima dan data structur adalah karena algoritma dapat membantu manyusun langkah - langkah untuk menyelesaikan suatu masalah. Dan data structur ini adalah programming yang digunakan untuk mengelola/manajemen sebuah data yang telah disusun secara algoritma tadi.
 3. Algoritma sederhana dalam bahasa pemrograman javascript.
@@ -222,27 +222,59 @@
     ```
 
 # JavaScript Dasar Introduction
+1. __JavaScript__ merupakan bahasa pemrograman yang digunakan untuk membuat web menjadi lebih interaktif dan responsive.
 
-<!-- 
-Peserta mampu memahami peran JavaScript pada web development
-Peserta mampu memahami dan menjalankan JavaScript
-Peserta mampu memahami dan membedakan berbagai tipe data
-Peserta mampu memahami dan menggunakan operator
-Peserta mampu memahami dan membedakan control flow (conditional dan looping) -->
+2. Untuk menjalankan javascript pada umumnya menggunakan web browser seperti Chrome, Microsoft Edge, Mozila Firefox, kalau pakai code editor Visual Studio Code bisa di bagian console.
+
+3. Macam - macam Tipe Data di JavaScript :
+    - Number : tipe data yang mengandung semua jenis angka. Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan float (terdiri dari bilangan desimal).
+    - String : tipe data yang terdiri dari huruf, angka, spasi maupun simbol Tipe data string.
+    - Boolean : tipe data yang memiliki nilai true or false.
+    - Null : tipe data pada sebuah data/variabel yang tidak memiliki nilai.
+    - Undefined : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.
+    - Object : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata.
+4. Operator digunakan untuk menyimpan sebuah nilai pada variabel. __Contoh__ `` let saya = "Reza"; `` jadi variabel data ``saya`` memiliki nilai string ``Reza``. Dengan Operator Math perkalian ``*``
+    ```javascript
+        let angka = 6;
+        let hasil = angka * 4;
+        console.log(hasil); // 24    
+    ```
+5. __Conditional__ merupakan statement percabangan yang menggambarkan suatu kondisi, statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut. Yang dicek adalah apakah kondisi tersebut TRUE (benar). Jika TRUE maka code didalam kondisi tersebut dijalankan. Kondisi tersebut bisa menggunakan ``IF, IF.. Else, IF.. Else if Statement``.
+__Looping__ adalah statement yang mengulang atau perulangan sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop atau berhenti tercapai. Misal menggunakan perulangan ``For Loop`` contoh statement 
+    ```JavaScript
+        for(let a = 1; a <= 10; a++){
+        console.log(a); // 1 2 3 4 5 6 7 8 9 10
+        } 
+    ```
+    Jadi kode di atas saat ``a = 1`` lalu ``a kurang dari sama dengan(<=) 10)`` maka ``a +1 (a++)``. Lalu ditampilkan dengan ``console.log(a)``.<br>
 
 # JavaScript Dasar Scope and Function
 
-<!-- 
-Peserta mampu memahami scope
-Peserta mampu memahami dan membuat fungsi
-Peserta mampu menghadapi dan menyelesaikan error serta bug -->
+1. __Scope__ adalah konsep dalam flow data variabel, yang menentukan suatu variabel bisa diakses pada scope tertentu atau tidak, scope memiliki lingkup sifat global dan local. Kalau sifat global itu bisa lebih luas daripada local. 
+
+2. __Function__  merupakan sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 fitur. Saat kita membutuhkan fitur tersebut nantinya, kita bisa kembali menggunakannya. 
+    ``` JavaScript
+        function hasilLooping(){
+            for(let a = 1; a <= 10; a++){
+              console.log(a);
+            }
+        }
+        
+        hasilLooping(); // 1 2 3 4 5 6 7 8 9 10
+    ``` 
+    <br>
+3. Hal pertama koreksi kode apakah ada yang salah, jika merasa tidak ada terus di run ada, jika ada eror maka kita baca dan pahami isi (dalam) pesan kesalahan yang muncul di konsol Anda (web browser, terminal, atau apa pun yang digunakan). Jenis - jenis kesalahan yang sering ditemui : <br>
+     - Kesalahan referensi <br>
+         &ensp; Merupakan hal yang umum ketika menggunakan const dan let, mereka diangkat seperti var dan function tetapi ada waktu antara pengangkatan dan dideklarasikan sehingga ketika Anda mencoba mengaksesnya terjadi kesalahan referensi.
+     - Kesalahan sintaks <br>
+         &ensp; Kesalahan ini seperti mengirim tanda koma saat memanggil fungsi ditangani tanpa kesalahan oleh sebagian besar browser terbaru, tetapi yang lebih lama Anda harus berhati-hati.
+     - Kesalahan salah ketik <br>
+         &ensp; Muncul ketika jenis (angka, string, dan sebagainya) yang digunakan atau akses tidak kompatibel, seperti mengakses properti dalam jenis variabel yang tidak ditentukan. Cara mengatasinya sederhana, pastikan bilah itu ada sebelum mencoba mengaksesnya, baik dengan membuat bilah atau dengan memeriksa _undefined_.
 
 # JavaScript Dasar Data Type Built in Prototype & Method
 
-
-<!-- 
-Data Type: 
-String: 
-Number: 
-Math: 
-Primitive & Non Primitive:  -->
+1. __Data Type__ untuk dapat beroperasi pada variabel, penting untuk mengetahui sesuatu tentang tipenya yang diinputkan.
+2. __String__ digunakan untuk mewakili data tekstual. Ini adalah satu set "elemen" dari nilai integer 16-bit unsigned. Setiap elemen dalam String menempati posisi dalam String.
+3. __Number__ merupakan yang memiliki satu jenis angka, yang dapat ditulis dengan atau tanpa desimal. 
+4. __Math__  memungkinkan untuk melakukan tugas matematika pada angka/number.
+5. __Primitive__ sudah ditentukan sebelumnya di java, yang selalu memiliki nilai diawali huruf kecil dapat juga tergantung pada tipe data nya. __Non Primitive__ dibuat oleh programmer dan tidak didefinisikan oleh Java (kecuali untuk String), digunakan untuk memanggil method dan untuk melakukan operasi tertentu yang dapat berupa nilai ``null``.
