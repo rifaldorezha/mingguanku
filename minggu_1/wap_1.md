@@ -2,7 +2,7 @@
 
 1. <b>Shell</b> yang digunakan untuk berinteraksi antara pengguna dengan perangkat lunak / software dan sistem operasi dengan cara mengetikkan perintah ke dalam interface dan dapat menerima respons.
 
-2. <b>Command Line Interface</b> merupakan Interface atau antarmuka berbasis teks, CLI tersebut bisa berupa GUI atau shell. CLI memiliki contoh  : <br>
+2. <b>Command Line Interface</b> merupakan Interface atau antarmuka berbasis teks, CLI tersebut bisa berupa GUI atau shell. CLI memiliki contoh seperti: <br>
     - bash <br>
     - sh <br>
     - zsh <br>
@@ -10,7 +10,7 @@
 
 3. <b>Cara mengakases CLI dengan menggunakan terminal </b> yang umum dipakai adalah Command Prompt, lalu ada juga yang menggunakan Bash seperti saya. Berikut adalah tampilan awal saat membuka Command Prompt atau Bash :<br> <img src="tampilan_bash.png" style="height: 200px; width: 370px; display: block; margin-left: auto; margin-right: auto;" > <br>
 
-4. **System Structur** dengan menyimpan semua perubahan pada directory atau file project yang dibuat oleh pengguna dan diatur dalam system tersebut. File yang sudah disimpan maka akan tersusun dengan bentuk hirarki atau tree. Contoh : <img src="tree.png" style="height: 200px; width: 370px; display: block; margin-left: auto; margin-right: auto;" >
+4. **System Structur** dengan menyimpan semua perubahan pada directory atau file project yang dibuat oleh pengguna dan diatur dalam system tersebut. File yang sudah disimpan maka akan tersusun dengan bentuk hirarki atau tree. Contohnya : <img src="excalidraw1.png" style="height: 400px; width: 800px; display: block; margin-left: auto; margin-right: auto;" >
 
 5. **Print working directory** atau `pwd` digunakan untuk menampilkan current working directory.
 6. **Lists** `ls` digunakan untuk melihat isi file yang ada di sebuah directory.
@@ -26,7 +26,7 @@
 
 # Git and Github
 
-1. **Git dan Github** merupakan tools yang dimiliki banyak programmer yang digunakan untuk menyimpan file project yang sedang dikerjakan. **Git** ini juga bisa digunakan untuk melacak perubahan apa saja yang terjadi dalam suatu file project. **Github** sebagai forum diskusi para programmer seperti halnya media sosial, dan merupakan layanan cloud yang memilik kegunaan sama untuk menyimpan dan mengelola sebuah project yang dinamakan repository (repo git).
+1. **Git dan Github** merupakan tools yang dimiliki banyak programmer yang digunakan untuk menyimpan file project yang sedang dikerjakan. **Git** ini juga bisa digunakan untuk melacak perubahan apa saja yang terjadi dalam suatu file project. **Github** sebagai forum diskusi para programmer seperti halnya media sosial, dan merupakan layanan cloud yang memiliki kegunaan sama untuk menyimpan dan mengelola sebuah project yang dinamakan repository (repo git).
 2. Perbedaan Git dan Github :
 <table>
     <tr>
@@ -67,24 +67,24 @@
     <td>Pilihan bagi pengguna gratis dan pengguna berbayar</td></tr>
 </table><br>
 
-3. Alur kerja Git dan Github <br> <img src="excalidraw.png" style="height: 350px; width: 600px">
+3. Alur kerja Git dan Github <br> <img src="excalidraw.png" style="height: 400px; width: 800px">
 4. `git init nama_directory` command ini akan membuat directory dan file `.git` sebagai tempat memori penyimpanan. Lalu jika sudah ada directory maka hanya memerlukan command `git init .` pada tempat directory yang sudah dibuat sebelumnya.
 5. Melakukan commit pada Git <br>
    <img src="cara commit.png" style="height: 400px; width: 800px"> <br> Setelah membuat file maka kita git add dulu supaya masuk ke stage area setelah itu git status. Jika file sudah berwarna hijau, selanjutnya membuat command `git commit -m "Cara melakukan commit pada git, membuat file index.js dan oke.html"` ini contoh aku ambil pada saat saya sedang praktek, dan nanti bisa sesuai kasusnya masing-masing. Setelah itu `git log` untuk melihat checkpoint yang sudah di commit.
 
 6. Publish ke Github<br>
-   <img src="cara push.png" style="height: 250px; width: 600px"> <br>
-   Sebelum di push, yang dilakukan adalah membuat repository dulu di Github dengan nama yang sama. Lalu ceklist public, setelah itu create repository. Setelah sukses membuat repository yng dilakukan adalah copy command yang disediakan dan paste di Git bash. setelah itu copy command `git push -u origin master`. Setelah itu masuk ke web Github kita cek, maka tampilan nya seperti di bawah ini.
-   <img src="sesudah di push.png" style="height: 250px; width: 600px"> <br>
+   <img src="cara push.png" style="height: 400px; width: 800px"> <br>
+   Sebelum di push, yang dilakukan adalah membuat repository dulu di Github dengan nama yang sama. Lalu ceklist public supaya bisa dilihat teman satu tim atau orang lain, setelah itu create repository. Setelah sukses membuat repository yng dilakukan adalah copy command yang disediakan dan paste di Git bash. Setelah itu copy command `git push -u origin master`. Setelah itu masuk ke web Github kita cek dan refresh, maka tampilan nya seperti di bawah ini.
+   <img src="sesudah di push.png" style="height: 400px; width: 800px"> <br>
 
-7. cara Clone ke local <br>
-   <img src="clone web.png" style="height: 250px; width: 600px"><br>
+7. Cara Clone ke local <br>
+   <img src="clone web.png" style="height: 400px; width: 800px"><br>
    Masuk ke Github, lalu pilih tombol **Code** warna hijau dan copy link nya. Setelah itu masuk ke file explorer mencari tempat dimana akan diletak kan file repository tersebut. Setelah itu klik kanan pilih Git Bash Here, lalu masukkan command `git clone link_clone_github` maka tampilan seperti di bawah ini. <br>
-   <img src="clone1.png" style="height: 250px; width: 600px"><br><br>
+   <img src="clone1.png" style="height: 400px; width: 800px"><br><br>
 
 # HTML Dasar
 
-1. HTML atau Hypertext Markup Language yang berfungsi menampilkan konten di browser dan menjadi kerangka awal untuk pembuatan web.
+1. HTML (Hypertext Markup Language) yang berfungsi menampilkan konten di browser dan menjadi kerangka awal untuk pembuatan web.
 2. Tools yang dibutuhkan untuk untuk membuat HTML yaitu web browser dan code editor seperti Visual Studio Code, Sublime Text, dll.
 3. Contoh HTML sederhana
    ``` HTML
@@ -104,9 +104,9 @@
     <br>
 4. Tampilan menjalankan html sederhana seperti dibawah ini.
     <br>
-    <img src="html manual.png" style="height: 250px; width: 600px"><br>
+    <img src="html manual.png" style="height: 400px; width: 800px"><br>
     Tampilan menjalankan dengan ekstensi Live Server seperti dibawah ini.<br>
-    <img src="html go live.png" style="height: 250px; width: 600px">
+    <img src="html go live.png" style="height: 400px; width: 800px">
 
 5. Implementasi tag HTML yang sering digunakan. <br>
     * HTML Element terdiri atas opening tag, content, dan closing tag. <br>
@@ -150,7 +150,7 @@
 
 # CSS Dasar
 
-1. CSS atau Cascading Style Sheets yang digunakan untuk mendesain halaman website dengan mengubah warna, menggunakan font custom, editing text format, mengatur tata letak.
+1. CSS (Cascading Style Sheets) yang digunakan untuk mendesain halaman website dengan mengubah warna, menggunakan font custom, editing text format, mengatur tata letak.
 2. Ada 3 cara menggunakan CSS yaitu : <br>
     - __Inline Tag__ : menggunakan css langsung di atribute element html. <br>
     - __Internal Tag__ : menggunakan tag style di bagian head. <br>
@@ -181,17 +181,16 @@
         }
     ```
 6.Penggunaan Flexbox <br>
-- Flexbox adalah suatu cara untuk mengatur layout atau tata letak. <br>
-- Flexbox terdiri 1 parent (container) dan bisa beberapa child. <br>
-- Flex direction digunakan untuk mengatur letak child. <br>
-- Flex wrap mengatur tata letak child pada 1 line. <br>
-- Flex flow yaitu digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap secara bersamaan. <br>
-- Order digunakan untuk ordering item yang ingin diatur posisinya. <br>
-- Justify - content digunakan untuk mengatur tata letak antar item child secara horizontal. <br>
-- Align - content digunakan untuk mengatur tata letak antar item child secara vertikal atau cross axis. <br>
-- Flex-grow digunakan untuk mengatur size suatu item child pada flexbox. <br>
-- Flex-shrink digunakan untuk memperkecil size suatu item child secara relatif terhadap item child lainnya. <br>
-- flex-basis digunakan untuk mengatur width setiap item child. <br>
+- __Flexbox__ adalah suatu cara untuk mengatur layout atau tata letak, yang terdiri 1 parent (container) dan bisa beberapa child. <br>
+- __Flex direction__ digunakan untuk mengatur letak child. <br>
+- __Flex wrap__ mengatur tata letak child pada 1 line. <br>
+- __Flex flow__ yaitu digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap secara bersamaan. <br>
+- __Order__ digunakan untuk ordering item yang ingin diatur posisinya. <br>
+- __Justify - content__ digunakan untuk mengatur tata letak antar item child secara horizontal. <br>
+- __Align - content__ digunakan untuk mengatur tata letak antar item child secara vertikal atau cross axis. <br>
+- __Flex-grow__ digunakan untuk mengatur size suatu item child pada flexbox. <br>
+- __Flex-shrink__ digunakan untuk memperkecil size suatu item child secara relatif terhadap item child lainnya. <br>
+- __flex-basis__ digunakan untuk mengatur width setiap item child. <br>
 
 # Algorithm & Data Structures
 
@@ -227,12 +226,12 @@
 2. Untuk menjalankan javascript pada umumnya menggunakan web browser seperti Chrome, Microsoft Edge, Mozila Firefox, kalau pakai code editor Visual Studio Code bisa di bagian console.
 
 3. Macam - macam Tipe Data di JavaScript :
-    - Number : tipe data yang mengandung semua jenis angka. Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan float (terdiri dari bilangan desimal).
-    - String : tipe data yang terdiri dari huruf, angka, spasi maupun simbol Tipe data string.
-    - Boolean : tipe data yang memiliki nilai true or false.
-    - Null : tipe data pada sebuah data/variabel yang tidak memiliki nilai.
-    - Undefined : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.
-    - Object : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata.
+    - __Number__ : tipe data yang mengandung semua jenis angka. Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan float (terdiri dari bilangan desimal).
+    - __String__ : tipe data yang terdiri dari huruf, angka, spasi maupun simbol Tipe data string.
+    - __Boolean__ : tipe data yang memiliki nilai true or false.
+    - __Null__ : tipe data pada sebuah data/variabel yang tidak memiliki nilai.
+    - __Undefined__ : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.
+    - __Object__ : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata.
 4. Operator digunakan untuk menyimpan sebuah nilai pada variabel. __Contoh__ `` let saya = "Reza"; `` jadi variabel data ``saya`` memiliki nilai string ``Reza``. Dengan Operator Math perkalian ``*``
     ```javascript
         let angka = 6;
@@ -265,9 +264,9 @@ __Looping__ adalah statement yang mengulang atau perulangan sebuah instruksi hin
     <br>
 3. Hal pertama koreksi kode apakah ada yang salah, jika merasa tidak ada terus di run ada, jika ada eror maka kita baca dan pahami isi (dalam) pesan kesalahan yang muncul di konsol Anda (web browser, terminal, atau apa pun yang digunakan). Jenis - jenis kesalahan yang sering ditemui : <br>
      - Kesalahan referensi <br>
-         &ensp; Merupakan hal yang umum ketika menggunakan const dan let, mereka diangkat seperti var dan function tetapi ada waktu antara pengangkatan dan dideklarasikan sehingga ketika Anda mencoba mengaksesnya terjadi kesalahan referensi.
+         &ensp; Merupakan hal yang umum ketika menggunakan const dan let, mereka diangkat seperti var dan function tetapi ada waktu antara pengangkatan dan dideklarasikan sehingga ketika mencoba mengaksesnya terjadi kesalahan referensi.
      - Kesalahan sintaks <br>
-         &ensp; Kesalahan ini seperti mengirim tanda koma saat memanggil fungsi ditangani tanpa kesalahan oleh sebagian besar browser terbaru, tetapi yang lebih lama Anda harus berhati-hati.
+         &ensp; Kesalahan ini seperti mengirim tanda koma saat memanggil fungsi ditangani tanpa kesalahan oleh sebagian besar browser terbaru, tetapi yang lebih lama harus berhati-hati.
      - Kesalahan salah ketik <br>
          &ensp; Muncul ketika jenis (angka, string, dan sebagainya) yang digunakan atau akses tidak kompatibel, seperti mengakses properti dalam jenis variabel yang tidak ditentukan. Cara mengatasinya sederhana, pastikan bilah itu ada sebelum mencoba mengaksesnya, baik dengan membuat bilah atau dengan memeriksa _undefined_.
 
@@ -278,3 +277,6 @@ __Looping__ adalah statement yang mengulang atau perulangan sebuah instruksi hin
 3. __Number__ merupakan yang memiliki satu jenis angka, yang dapat ditulis dengan atau tanpa desimal. 
 4. __Math__  memungkinkan untuk melakukan tugas matematika pada angka/number.
 5. __Primitive__ sudah ditentukan sebelumnya di java, yang selalu memiliki nilai diawali huruf kecil dapat juga tergantung pada tipe data nya. __Non Primitive__ dibuat oleh programmer dan tidak didefinisikan oleh Java (kecuali untuk String), digunakan untuk memanggil method dan untuk melakukan operasi tertentu yang dapat berupa nilai ``null``.
+
+
+# <br>
