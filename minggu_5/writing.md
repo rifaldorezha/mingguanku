@@ -13,8 +13,7 @@
    - Dinamic site
      Dimana proses yang dilakukan pada full di bagian server. Yang dapat diberikan dalam bentuk html atau json. Framework yang digunakan seperti laravel, express, next, nuxt.
    - Static site
-3. Software Architecture <br>
-   <img src="./img/software Architecture.png"> <br>
+3. Software Architecture <br> <img src="./img/software architecture.png">
 
 ## Restful API
 
