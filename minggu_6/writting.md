@@ -57,10 +57,10 @@
 
 2. Beberapa tipe database relationships :
 
-   - One to One <img src="./img/1to1.png">
-   - One to Many <img src="./img/1tom.png">
-   - Many to One <img src="./img/mto1.png">
-   - Many to Many <img src="./img/mtom.png">
+   - One to One <br> <img src="./img/1to1.png">
+   - One to Many <br> <img src="./img/1tom.png">
+   - Many to One <br> <img src="./img/mto1.png">
+   - Many to Many <br> <img src="./img/mtom.png">
 
 3. Database Normalization merupakan teknik analisis data yang mengorganisasikan atribut-atribut data dengan cara mengelompokkan sehingga terbentuk entitas yang non-redundant, stabil, dan fleksible.
 4. tujuan adanya database Normalization adalah :
